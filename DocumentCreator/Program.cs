@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Net.NetworkInformation;
+using System;
 
 namespace DocumentCreator
 {
@@ -16,6 +17,10 @@ namespace DocumentCreator
             String bodyText = Console.ReadLine();
 
             //Write code here: to call the HTMLDocumentBuilder and do the necessary processing
+            HTMLDocumentBuilder newDoc = new HTMLDocumentBuilder();
+            newDoc.BuildDocument(titleText, authorText, bodyText);
+            
+            HTMLDocument resultDoc = newDoc.GetDocument();
 
             //resultDoc is an HTMLDocument, the result of the document building process
             Console.WriteLine(resultDoc.GetString());
