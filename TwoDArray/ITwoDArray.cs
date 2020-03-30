@@ -12,7 +12,8 @@ namespace TwoDArray
     {
         // get an iterator through the array
         ITwoDIterator<T> CreateRowMajorIterator();
-
+        // get an iterator through the array
+        ITwoDIterator<T> CreateColumnMajorIterator();
         // get the element at position (i, j)
         T Get(int i, int j);
 

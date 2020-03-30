@@ -676,19 +676,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\A101530\\.nuget\\packages\\": {}
+    "C:\\Users\\Ted\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A101530\\Documents\\SIT Teaching\\AY 2019-20\\Software Design January 2020\\My_Stuff\\Netcore\\Notifier\\Notifier.csproj",
+      "projectUniqueName": "D:\\Documents-HDD\\SIT Documents\\Trimester 2-2\\ICT2106 - Software Design\\Lab\\SoftwareDesign\\Notifier\\Notifier.csproj",
       "projectName": "Notifier",
-      "projectPath": "C:\\Users\\A101530\\Documents\\SIT Teaching\\AY 2019-20\\Software Design January 2020\\My_Stuff\\Netcore\\Notifier\\Notifier.csproj",
-      "packagesPath": "C:\\Users\\A101530\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A101530\\Documents\\SIT Teaching\\AY 2019-20\\Software Design January 2020\\My_Stuff\\Netcore\\Notifier\\obj\\",
+      "projectPath": "D:\\Documents-HDD\\SIT Documents\\Trimester 2-2\\ICT2106 - Software Design\\Lab\\SoftwareDesign\\Notifier\\Notifier.csproj",
+      "packagesPath": "C:\\Users\\Ted\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents-HDD\\SIT Documents\\Trimester 2-2\\ICT2106 - Software Design\\Lab\\SoftwareDesign\\Notifier\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\A101530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ted\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -720,16 +724,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

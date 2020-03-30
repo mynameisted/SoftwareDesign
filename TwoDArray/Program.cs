@@ -27,6 +27,18 @@ namespace TwoDArray
             }
             Console.WriteLine();
             Console.ReadLine();
+
+
+            // display the array in column major order
+            ITwoDIterator<int> iter2 = array.CreateColumnMajorIterator();
+            while (!iter2.IsDone())
+            {
+                Console.Write(iter2.Current() + " ");
+                iter2.Next();
+            }
+            Console.WriteLine();
+            Console.ReadLine();
+
         }
     }
 }
