@@ -28,7 +28,7 @@ namespace DocumentCreator
             author = authorIn;
 
             // Write code here: set the title of the document
-            
+            doc.setTitle(title);
         }
 
         // build the <body> element
@@ -38,9 +38,11 @@ namespace DocumentCreator
             doc.AppendToBody(new HTMLHeading(1, title));
 
             // Write code here: add a second-level heading containing the author
+            doc.AppendToBody(new HTMLHeading(2, "by: " + author));
 
 
             // Write code here: add a paragraph containing the text
+            doc.AppendToBody(new HTMLParagraph(textIn));
 
         }
 
@@ -48,6 +50,7 @@ namespace DocumentCreator
         {
             BuildHeadElement(titleIn, authorIn);
             //Write code here: call the method to build the body
+            BuildBody(textIn);
                         
         }
         // return the document that has built
